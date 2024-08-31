@@ -1,4 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgba(6, 11, 37, 1);
+    width: 100%;
+    background-image: url('/img/mainpage_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6,a,Link,p{
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.menu li .active{
+    color:rgba(111, 78, 253, 1);
+    font-size: 17px;
+}
+.menu li .menu_link{
+    font-size: 17px;
+}
+.menu li .menu_link:hover{
+    color:#7B63FF;;
+    transition: all .3s ease;
+}
