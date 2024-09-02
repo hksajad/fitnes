@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* login */}
-        <div className="login_nav">
+        <div className="login_nav cursor-pointer">
           <Link href="/" className="link_login bg-[#6f4efd] p-3 cursor-pointer rounded-[7px]">ورود / ثبت نام</Link>
         </div>
       </div>

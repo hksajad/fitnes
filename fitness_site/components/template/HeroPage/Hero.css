@@ -1,0 +1,24 @@
+.Award{
+    background-color: #6f4efd;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    border-radius: 100%;
+    margin-right: 26rem;
+    cursor: pointer;
+    margin-top: -4rem;
+}
+@media screen and (max-width: 768px){
+    .Award{
+        margin-right: 15rem;
+    }
+}
+.bg_hero-content{
+    width: 100%;
+    background-color: #6f4efd;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    border-radius: 5px;
+}

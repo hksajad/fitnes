@@ -18,12 +18,19 @@
     margin-left: 140px;
     width: 700px;
   }
-}
-
-@media screen and (max-width: 992px) {
   .caption_hero h1,.caption_hero p{
     text-align: center;
   }
+  .bg_hero-content{
+    margin-top: 40px;
+  }
+  .bg_hero-content span{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -43,6 +50,9 @@
   }
   .img_hero img{
     margin-left: 100px;
+  }
+  .Award{
+    margin-right: 20rem;
   }
 }
 
