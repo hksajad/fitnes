@@ -1,0 +1,10 @@
+.boxes_content{
+    width: 264px;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 6px;
+}
+.boxes_content.active{
+    background: rgba(111, 78, 253, 1);
+}

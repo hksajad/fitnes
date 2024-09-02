@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color:rgba(6, 11, 37, 1);
+    background-color:#060b25;
     width: 100%;
     background-image: url('/img/mainpage_bg.png');
     background-repeat: no-repeat;
@@ -19,4 +19,20 @@ body{
 }
 h1,h2,h3,h4,h5,h6,a,Link,p,span{
     color: #fff;
+}
+.titlePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titlePage h4{
+    color: #6f4efd;
+    font-weight: 600;
+    font-size: 30px;
+}
+.titlePage h1{
+    font-weight: 800;
+    font-size: 32px;
 }

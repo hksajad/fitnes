@@ -27,6 +27,9 @@
   .bg_hero-content span{
     font-size: 20px;
   }
+  .boxes_content{
+    margin: 47px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -71,6 +74,10 @@
   }
   .img_hero img{
     margin-left: 85px;
+  }
+  .boxes_content{
+    margin: 10px;
+    width: 400px;
   }
 }
 @media screen and (max-width: 460px) {
