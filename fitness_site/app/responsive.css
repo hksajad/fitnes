@@ -30,6 +30,27 @@
   .boxes_content{
     margin: 47px;
   }
+  .about{
+    flex-direction: column;
+  }
+  .about .image_about{
+    margin-left: 100px;
+
+  }
+  .about .image_about img{
+    width: 100%;
+  }
+  .caption_about{
+    width: 100%;
+    margin-top: -14px;
+  }
+  .caption_about h1 , .caption_about p{
+    width: 100%;
+    text-align: center;
+  }
+  .link_about{
+    margin: 20px auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -78,6 +99,10 @@
   .boxes_content{
     margin: 10px;
     width: 400px;
+  }
+  .about .image_about{
+    margin-left: 50px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 460px) {
