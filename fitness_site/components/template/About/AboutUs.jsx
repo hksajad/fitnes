@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="container-fluid w-full bg-[#060b25]">
       <div className="container">
-        <div className="about pt-15  w-full flex flex-row-reverse items-center justify-between">
+        <div className="about pt-15  w-full flex flex-row-reverse items-center justify-between" id="about">
           {/* img about */}
           <div className="image_about">
             <Image

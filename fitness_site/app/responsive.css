@@ -51,6 +51,30 @@
   .link_about{
     margin: 20px auto;
   }
+  .fit{
+    margin-top: 45px;
+  }
+  .content_fit{
+    flex-direction: column;
+  }
+  .caption_fit{
+    justify-content: space-around;
+  }
+  .title_fit{
+    width: 255px;
+    justify-content: center;
+  }
+  .caption_fit{
+    margin: 10px 18px;
+    justify-content: space-between;
+  }
+  .content_fit p{
+    width: 688px;
+    text-align: center;
+  }
+  .item{
+    width: 190px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -78,6 +102,27 @@
   .Award{
     margin-right: 20rem;
   }
+  .boxes_content{
+    width: 100%;
+  }
+  .item{
+    width: 100%;
+  }
+  .content_fit p{
+    width: 83%;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  .item .number,
+  .item .title,
+  .item .caption{
+    font-size: 20px;
+  }
+  .title_fit{
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -104,6 +149,7 @@
     margin-left: 50px;
     width: 100%;
   }
+  
 }
 @media screen and (max-width: 460px) {
 }

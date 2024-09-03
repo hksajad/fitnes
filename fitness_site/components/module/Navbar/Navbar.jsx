@@ -31,16 +31,16 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/" className="menu_link">
-              فروشگاه
+              تماس با ما
             </Link>
           </li>
           <li>
-            <Link href="/" className="menu_link">
+            <Link href="/#servicePage" className="menu_link">
               خدمات
             </Link>
           </li>
           <li>
-            <Link href="/" className="menu_link">
+            <Link href="/#about" className="menu_link">
               درباره ما
             </Link>
           </li>
